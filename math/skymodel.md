@@ -1,0 +1,1 @@
+https://cgg.mff.cuni.cz/publications/skymodel-2021/ it's a huge tensor decomposition :(

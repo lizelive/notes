@@ -1,0 +1,1 @@
+a fibration is a mapping {\displaystyle \pi :E\to B}{\displaystyle \pi :E\to B} that has certain homotopy-theoretic properties in common with fiber bundles. Specifically, under mild technical assumptions a fiber bundle always has the homotopy lifting property or homotopy covering property 

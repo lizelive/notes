@@ -109,3 +109,11 @@ a vector space equipped with an inner product which defines a distance function 
 
 # to try
 breed quantium mips
+
+# diffeomorphic
+for smooth manifolds, isomorphism, bijection differentiable manifold to another. both the function and its inverse are differentiable.
+
+# Hopf coordinates
+
+# bijection 
+invertable function

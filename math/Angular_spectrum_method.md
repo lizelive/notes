@@ -1,0 +1,4 @@
+Sampling the complex (real and imaginary) components of a pressure field over a grid of points lying in a cross-sectional plane within the field.
+Taking the 2D-FFT (two dimensional Fourier transform) of the pressure field - this will decompose the field into a 2D "angular spectrum" of component plane waves each traveling in a unique direction.
+Multiplying each point in the 2D-FFT by a propagation term which accounts for the phase change that each plane wave will undergo on its journey to the prediction plane.
+Taking the 2D-IFFT (two dimensional inverse Fourier transform) of the resulting data set to yield the field over the prediction plane.
