@@ -83,3 +83,17 @@ can be used to predict things and stuff
 }
 
 https://vision.seas.harvard.edu/hyperspec/download.html
+
+@inproceedings{attal2022learning,
+  author    = {Benjamin Attal and Jia-Bin Huang and Michael Zollh{\"o}fer and Johannes Kopf and Changil Kim},
+  title     = {Learning Neural Light Fields with Ray-Space Embedding Networks},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2022},
+}
+
+@inproceedings{Zhi:etal:ICCV2021,
+  title={In-Place Scene Labelling and Understanding with Implicit Scene Representation},
+  author={Shuaifeng Zhi and Tristan Laidlow and Stefan Leutenegger and Andrew J. Davison},
+  booktitle=ICCV,
+  year={2021}
+}
