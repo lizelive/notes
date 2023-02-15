@@ -7,3 +7,8 @@ return `rules[${i}].value=1&rules[${i}].comparator=AtLeast&rules[${i}].type=Clus
 });
 copy("https://api.toolsnotincluded.net/api/maps/filtered?page=1&pageSize=20&clusterKey=expansion1::clusters/MiniClusterRadioactiveOceanStart&expansion=SpacedOut&"+rules.join('&'));
 ```
+
+https://toolsnotincluded.net/map-tools/map-browser/map/60344
+https://toolsnotincluded.net/map-tools/map-browser/map/69865
+https://toolsnotincluded.net/map-tools/map-browser/map/65398
+https://toolsnotincluded.net/map-tools/map-browser/map/26883
