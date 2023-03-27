@@ -1,5 +1,8 @@
 # zfs
 
+zfs seems cool, but prob not a good idea on my nas
+will just bit the bullet and use mirror + btrfs
+
 find disks `sudo fdisk -l`
 
 `sudo zpool create -f ftcg /dev/sdb /dev/sdc`
@@ -7,7 +10,7 @@ find disks `sudo fdisk -l`
 same permisions as /tmp
 `sudo chmod 1777 /ftcg`
 
-`nix-shell -p iozone`
+`nix-shell -p iozone gptfdisk`
 
 `iozone -a -s 4m -r 4k -i 0 -i 1 -i 2 -f /ftcg/iozone.tmp`
 
@@ -15,7 +18,7 @@ get permisions as number
 `stat -c '%a %n' /tmp/`
 
 
-
+`sudo sgdisk --zap-all /dev/sdc`
 
 set acl permisions
 `setfacl -dm u::rwx,g::rwx,o::r`
